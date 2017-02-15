@@ -1,0 +1,49 @@
+.tit li{
+	/*display:inline-block;*/
+	float:left;
+	/*width:120px;*/
+	height:36px;
+	background: lightgray;
+	text-align: center;
+	line-height: 36px;
+	padding:0px 40px 0px 26px;	
+	margin-right:5px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	cursor:pointer;
+	position: relative;
+}
+.tit li.on,.tit li:hover{
+	background:pink;
+}
+.con li{
+	float:left;
+	display: none;
+	/*width:548px;*/
+	width:96%;
+	height:200px;
+	background:lightblue;
+	border:1px solid orange;
+	padding: 1% 2% 1% 2%;
+	font:16px/14px "Microsoft YaHei";
+	color:purple;
+}
+.tit li .close{
+	position: absolute;
+	background: url(img/叉.png) no-repeat;
+	width:11px;
+	height:11px;
+	right:9px;
+	top:12px;
+}
+.tit li .close:hover{
+	background: url(img/叉悬停.png) no-repeat;
+	position: absolute;
+	width:17px;
+	height:17px;
+	right:7px;
+	top:10px;
+}
+.con li:first-child{
+	display: block;
+}

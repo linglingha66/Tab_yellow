@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>可关闭Tab卡</title>
+	<link rel="stylesheet" href="可关闭Tab卡.css"/>
+	<link rel="stylesheet" href="reset.css">
+</head>
+<body>
+	<ul id="tit" class="tit clearfix">
+		<li class="on">大鱼海棠<a class="close"></a></li>
+		<li >惊天魔盗团2<a class="close"></a></li>
+		<li >发条城市<a class="close"></a></li>
+		<li >寒战2<a class="close"></a></li>
+		<li >致青春.原来你还在这里<a class="close"></a></li>
+	</ul>
+	<ul id="con" class="con">
+		<li>北冥有鱼，其名为鲲。鲲之大，不知其几千里也。</li>
+		<li>天启四骑士卷土重来，却迎来了新敌人，这个敌人请他们去完成一次最危险的抢劫。</li>
+		<li>讲述三个性格迥异却情同手足的兄弟，在一家电影制作公司做道具师。</li>
+		<li>冲锋车案件主谋设计逃脱警方控制，与幕后黑手汇合，联手策划更大阴谋。</li>
+		<li>讲述不同出身的青年男女在爱情上的探索、迷失、错过但最终成长的故事。</li>
+	</ul>
+	<script src="可关闭Tab卡.js"></script>
+	<script type="text/javascript">
+		var tit_dom = getId("tit");
+		var con_dom = getId("con");
+		tab(tit_dom,"on",con_dom,"close");
+	</script>
+</body>
+</html>
